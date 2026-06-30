@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="TBot-SA1: A 3D-Causal World-Spatial-Action Model for Generalizable Robot Control."
+      content="WSA: A 3D-Causal World-Spatial-Action Model for Generalizable Robot Control."
     />
-    <title>TBot-SA1 | A 3D-Causal World-Spatial-Action Model</title>
+    <title>WSA | A 3D-Causal World-Spatial-Action Model</title>
     <link rel="icon" type="image/png" href="assets/logos/icon.png" />
     <script>
       window.__initialHash = window.location.hash;
@@ -31,7 +31,7 @@
       <nav class="nav container" aria-label="Primary navigation">
         <a class="brand" href="#top">
           <img class="brand-icon" src="assets/logos/icon.png" alt="" aria-hidden="true" />
-          <span>TBot-SA1</span>
+          <span>WSA</span>
         </a>
         <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
           <span></span>
@@ -65,7 +65,7 @@
         </div>
 
         <div class="container hero-inner">
-          <img class="hero-logo" src="assets/logos/logo_full_bold.png" alt="TBot-SA1" />
+          <img class="hero-logo" src="assets/logos/logo_full_bold.png" alt="WSA" />
           <p class="venue">Project Page, 2026</p>
           <h1>
             <span class="title-line">A 3D-Causal World-Spatial-Action Model</span>
@@ -106,19 +106,19 @@
           <div class="resource-actions" aria-label="Project resources">
             <a
               class="resource-link primary"
-              href="https://zaleni.github.io/TBot-SA1/assets/paper/manuscript.pdf"
+              href="https://zaleni.github.io/WSA/assets/paper/manuscript.pdf"
               target="_blank"
               rel="noopener"
             >Paper</a>
             <a
               class="resource-link code-link"
-              href="https://github.com/zaleni/TBot-SA1"
+              href="https://github.com/zaleni/WSA"
               target="_blank"
               rel="noopener"
             >Code</a>
             <a
               class="resource-link models-link"
-              href="https://huggingface.co/collections/zaleni/tbot-sa1"
+              href="https://huggingface.co/collections/zaleni/wsa"
               target="_blank"
               rel="noopener"
             >Models</a>
@@ -133,7 +133,7 @@
             <p class="eyebrow">Overview</p>
             <h2>Framework</h2>
             <p>
-              TBot-SA1 is a World-Spatial-Action embodied foundation model for
+              WSA is a World-Spatial-Action embodied foundation model for
               generalizable robot control across simulation and real-world manipulation tasks.
             </p>
           </div>
@@ -141,11 +141,11 @@
           <figure class="figure-card overview-figure">
             <img
               src="assets/figures/overview.png"
-              alt="Overview of TBot-SA1 pretraining data, WSA model components, and downstream performance."
+              alt="Overview of WSA pretraining data, WSA model components, and downstream performance."
             />
           </figure>
 
-          <div class="overview-points" aria-label="TBot-SA1 key points">
+          <div class="overview-points" aria-label="WSA key points">
             <p>
               <span class="point-marker" aria-hidden="true">🌟</span>
               <strong>Unified WSA Modeling</strong>
@@ -191,7 +191,7 @@
             <div class="section-title framework-block-title">
               <h2>World-Spatial-Action modeling</h2>
               <p>
-                TBot-SA1 learns robot control in a shared 2D-3D latent space, unifying
+                WSA learns robot control in a shared 2D-3D latent space, unifying
                 instruction-aligned visual planning, action-conditioned 3D world modeling, and
                 3D-aware action generation.
               </p>
@@ -200,7 +200,7 @@
             <figure class="figure-card wide-figure">
               <img
                 src="assets/figures/framework_01_transparent.png"
-                alt="TBot-SA1 architecture with 2D Spatial Expert, 3D Spatial Expert, and 3D Action Expert."
+                alt="WSA architecture with 2D Spatial Expert, 3D Spatial Expert, and 3D Action Expert."
               />
               <figcaption>
                 The framework couples 2D Spatial, 3D Spatial, and 3D Action experts with
@@ -260,7 +260,7 @@
                 <h3>Real-World Foundational Experiments</h3>
               </div>
               <p>
-                In real-world experiments of basic capacity, TBot-SA1 demonstrates strong performance on a series of complex tabletop manipulation tasks,
+                In real-world experiments of basic capacity, WSA demonstrates strong performance on a series of complex tabletop manipulation tasks,
                 covering single-arm AgileX PiPER and dual-arm ARX Lift2 platforms.
               </p>
             </div>
@@ -326,11 +326,11 @@
             </div>
 
             <p class="performance-copy">
-              Our fully open-source WSA model TBot-SA1 ranked
+              WSA ranked
               <span class="performance-rank">4th/100+ teams</span>
               on the <strong>RoboChallenge V2.0 CVPR 2026 Generalist leaderboard</strong> (Team: MagicBot) competition, which demonstrates
               the effectiveness of training a single generalist model across diverse complicated real-world tasks. This indicates that
-              TBot-SA1 is reliable in both custom-designed real-world setups and large-scale
+              WSA is reliable in both custom-designed real-world setups and large-scale
               real-robot-based benchmarking, demonstrating superior generalizable robot control
               capabilities.
             </p>
@@ -409,7 +409,7 @@
                 <h3>RoboTwin2.0 Performance</h3>
               </div>
               <p>
-                RoboTwin2.0 benchmark evaluates multi-task generalization in simulation. TBot-SA1 reaches 92% on the clean (easy) setting
+                RoboTwin2.0 benchmark evaluates multi-task generalization in simulation. WSA reaches 92% on the clean (easy) setting
                 and 93% on the randomized (hard) setting,
                 showing stable and robust performance across diverse ALOHA manipulation tasks.
               </p>
@@ -449,7 +449,7 @@
                     <th>InternVLA-A1</th>
                     <th>LingBot-VA</th>
                     <th>Fast-WAM</th>
-                    <th>TBot-SA1</th>
+                    <th>WSA</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -657,7 +657,7 @@
               alt="Qualitative visualization of current observation, planned subgoal images, predicted 3D world states, and 3D action execution."
             />
             <figcaption>
-              Qualitative WSA visualization: TBot-SA1 plans instruction-aligned subgoal images,
+              Qualitative WSA visualization: WSA plans instruction-aligned subgoal images,
               predicts the corresponding 3D goal world, and executes continuous robot actions toward
               that spatial goal.
             </figcaption>
@@ -681,7 +681,7 @@
     <footer class="footer">
       <div class="container footer-inner">
         <div class="footer-brand">
-          <span>TBot-SA1</span>
+          <span>WSA</span>
           <div class="footer-logos" aria-label="Affiliation logos">
             <img class="footer-logo tongji-logo" src="assets/logos/tongji-logo.png" alt="Tongji University logo" />
             <img class="footer-logo sii-logo" src="assets/logos/sii-logo.png" alt="Shanghai Innovation Institution logo" />
