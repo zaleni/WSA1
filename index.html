@@ -106,7 +106,7 @@
           <div class="resource-actions" aria-label="Project resources">
             <a
               class="resource-link primary"
-              href="https://zaleni.github.io/WSA1/assets/paper/manuscript.pdf"
+              href="https://arxiv.org/abs/2607.03941"
               target="_blank"
               rel="noopener"
             >Paper</a>
@@ -238,8 +238,8 @@
                   <span>robot-control tasks</span>
                 </article>
                 <article>
-                  <strong class="stat-value-wide">93%</strong>
-                  <span>RoboTwin2.0 SR</span>
+                  <strong class="stat-value-wide">93.1%</strong>
+                  <span>RoboTwin2.0 hard SR</span>
                 </article>
               </aside>
             </div>
@@ -409,8 +409,8 @@
                 <h3>RoboTwin2.0 Performance</h3>
               </div>
               <p>
-                RoboTwin2.0 benchmark evaluates multi-task generalization in simulation. WSA reaches 92% on the clean (easy) setting
-                and 93% on the randomized (hard) setting,
+                RoboTwin2.0 benchmark evaluates multi-task generalization in simulation. WSA reaches 93.5% on the clean (easy) setting,
+                while WSA-L achieves 93.14% on the randomized (hard) setting,
                 showing stable and robust performance across diverse ALOHA manipulation tasks.
               </p>
             </div>
@@ -418,13 +418,13 @@
             <div class="result-cards performance-metrics" aria-label="RoboTwin2.0 result summary">
               <article>
                 <span>Easy SR</span>
-                <strong>92%</strong>
+                <strong>93.5%</strong>
                 <p>Average success under the clean (easy) setting.</p>
               </article>
               <article>
                 <span>Hard SR</span>
-                <strong>93%</strong>
-                <p>Average success under the randomized (hard) setting.</p>
+                <strong>93.1%</strong>
+                <p>WSA-L average success under the randomized (hard) setting.</p>
               </article>
               <article>
                 <span>Task coverage</span>
@@ -437,7 +437,7 @@
               <table class="result-table benchmark-table">
                 <colgroup>
                   <col class="metric-col" />
-                  <col class="method-col" span="8" />
+                  <col class="method-col" span="9" />
                 </colgroup>
                 <thead>
                   <tr>
@@ -449,20 +449,22 @@
                     <th>InternVLA-A1</th>
                     <th>LingBot-VA</th>
                     <th>Fast-WAM</th>
-                    <th>WSA</th>
+                    <th>WSA-B</th>
+                    <th>WSA-L</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr class="highlight-row">
                     <td>Avg. Success (Hard)</td>
-                    <td>58%</td>
-                    <td>77%</td>
-                    <td>85%</td>
-                    <td>87%</td>
-                    <td>90%</td>
-                    <td>92%</td>
-                    <td>92%</td>
-                    <td>93%</td>
+                    <td>58.40%</td>
+                    <td>76.76%</td>
+                    <td>85.08%</td>
+                    <td>87.02%</td>
+                    <td>89.64%</td>
+                    <td>91.50%</td>
+                    <td>91.78%</td>
+                    <td>92.70%</td>
+                    <td><strong>93.14%</strong></td>
                   </tr>
                 </tbody>
               </table>
@@ -672,8 +674,25 @@
         </div>
 
         <div class="citation-placeholder">
-          <p class="citation-status">Coming Soon</p>
-          <p>The official BibTeX entry will be released once the paper is finalized.</p>
+          <p class="citation-status">
+            <a href="https://arxiv.org/abs/2607.03941" target="_blank" rel="noopener">
+              WSA<sub>1</sub>: a 3D-Centric World-Spatial-Action Model for Generalizable Robot Control
+            </a>
+          </p>
+          <p>Jiahao Jiang, Jianing Zhang, Zhenhan Yin, Ruidong Chen, Sen Wang, Zhaoshu Yu, Pengpeng Zeng, Xiaofeng Cao, Xuanhan Wang, Jingkuan Song, and Heng Tao Shen. arXiv:2607.03941, 2026.</p>
+        </div>
+
+        <div class="bibtex-card">
+          <button class="copy-button" type="button" data-copy-target="bibtex-entry" aria-label="Copy BibTeX citation">Copy</button>
+          <pre><code id="bibtex-entry">@misc{jiang2026wsa,
+  title         = {WSA$_1$: a 3D-Centric World-Spatial-Action Model for Generalizable Robot Control},
+  author        = {Jiahao Jiang and Jianing Zhang and Zhenhan Yin and Ruidong Chen and Sen Wang and Zhaoshu Yu and Pengpeng Zeng and Xiaofeng Cao and Xuanhan Wang and Jingkuan Song and Heng Tao Shen},
+  year          = {2026},
+  eprint        = {2607.03941},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.RO},
+  url           = {https://arxiv.org/abs/2607.03941}
+}</code></pre>
         </div>
       </section>
     </main>

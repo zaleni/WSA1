@@ -2197,7 +2197,7 @@ pre,
   text-transform: none;
 }
 
-.result-table.benchmark-table thead th:last-child {
+.result-table.benchmark-table thead th:nth-last-child(-n + 2) {
   color: var(--accent);
   font-weight: 900;
 }
@@ -2208,7 +2208,7 @@ pre,
   font-weight: 500;
 }
 
-.result-table.benchmark-table .highlight-row td:last-child {
+.result-table.benchmark-table .highlight-row td:nth-last-child(-n + 2) {
   color: var(--accent);
   font-weight: 900;
 }
